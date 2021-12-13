@@ -11,7 +11,11 @@ const App = () => {
 
     return (
         <div className="App">
-
+            <Header />
+            <Logos />
+            <Form />
+            <Copyright />
+            <Footer />
         </div>
     )
 }

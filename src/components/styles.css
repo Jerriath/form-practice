@@ -1,0 +1,117 @@
+/*
+---------- Table of Contents ----------
+
+    1. Header styles
+    2. Logos styles
+    3. Form styles
+    4. Copyright styles
+    5. Footer styles
+    6. Global styles
+
+*/
+
+/*----- Header styles -----*/
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    min-height: 3rem;
+    padding-top: 0.25rem;
+    padding-right: 2rem;
+}
+
+.sign-in-msg {
+    margin: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sign-in {
+    color: white;
+    background-color: #0077c5;
+    outline: none;
+    border: 1px solid #4c4c4c;
+    border-radius: 4px;
+    margin: 0.5rem;
+    padding: 0.25rem 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/*----- Logos styles -----*/
+.main-logo {
+    height: 3.5rem;
+    width: auto;
+    margin: 1rem;
+}
+
+.small-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.logo-sizing {
+    height: 24px;
+    width: auto;
+}
+
+.logo-font {
+    color: #707070;
+    margin: auto 0.5rem;
+    font-weight: 400;
+}
+
+
+
+form {
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
+    padding: 30px;
+    width: 318px;
+    text-align: left;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*----- Global Styles -----*/
+.default-font {
+    font-size: 12px;
+    margin: 0;
+    font-weight: 300;
+    color: #505050;
+}
+
+.bigger-font {
+    font-size: 14px;
+    margin: 0;
+}
+
+.title-font {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 300;
+}
+
+.anchor-style {
+    font-size: 12px;
+    font-weight: 300;
+    color: #0077c5;
+    margin: 0;
+}
+
+.centered {
+    text-align: center;
+}
+
+.mb {
+    margin-bottom: 1rem;
+}

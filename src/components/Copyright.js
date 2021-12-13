@@ -1,0 +1,19 @@
+import "./styles.css";
+
+
+
+
+
+
+
+
+const Copyright = () => {
+
+    return (
+        <div className="copyright">
+            
+        </div>
+    )
+}
+
+export default Copyright;
