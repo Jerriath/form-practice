@@ -28,8 +28,7 @@ const Form = () => {
                 Create Account
             </button>
             <h5 className="terms-font">By selecting Create account, you agree to our <p style={{display: "inline"}} className="anchor-style">Terms</p> and</h5>
-            <h5 className="terms-font">have read and acknowledge our <p style={{display: "inline"}} className="anchor-style">Global Privacy </p></h5>
-            <p style={{display: "inline", marginBottom: "2rem"}} className="anchor-style terms-font">Statement.</p>
+            <span style={{padding: "0 1rem"}} className="terms-font">have read and acknowledge our <h5 style={{display: "inline"}} className="anchor-style">Global Privacy <p style={{color: "#0077c5", marginTop: "0.25rem"}}>Statement.</p></h5></span>
             <span className="terms-and-privacy">
                 <h5 className="small-font">Invisible by reCAPTCHA by Google <p style={{display: "inline", fontSize: "10px"}} className="anchor-style">Privacy Policy</p> and <p style={{display: "inline", fontSize: "10px"}} className="anchor-style">Terms of Use.</p></h5>
             </span>

@@ -135,6 +135,7 @@ form {
     position: relative;
     right: 30px;
     padding: 1.25rem 30px;
+    margin-top: 2rem;
 }
 
 
@@ -175,8 +176,13 @@ form {
 .anchor-style {
     font-size: 12px;
     font-weight: 300;
-    color: #0077c5;
+    color: #0077c5 !important;
     margin: 0;
+    cursor: pointer;
+}
+
+.anchor-style:hover {
+    text-decoration: underline;
 }
 
 .terms-font {
