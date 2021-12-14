@@ -73,6 +73,7 @@ form {
     border: 1px solid #c7c7c7;
     border-radius: 2px;
     padding: 30px;
+    padding-bottom: 0;
     width: 318px;
     text-align: left;
     margin: auto;
@@ -89,7 +90,7 @@ form {
     border: 1px solid #c1c5c8;
     font-size: 1rem;
     font-weight: 200;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
     display: flex;
     flex-direction: row;
 }
@@ -124,13 +125,23 @@ form {
     border-radius: 4px;
     color: white;
     font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.terms-and-privacy {
+    text-align: center;
+    background-color: #eceef1;
+    width: 100%;
+    position: relative;
+    right: 30px;
+    padding: 1.25rem 30px;
 }
 
 
 
 /*----- Global Styles -----*/
 .default-font {
-    font-size: 12px;
+    font-size: 13px;
     margin: 0;
     font-weight: 300;
     color: #505050;
@@ -168,10 +179,21 @@ form {
     margin: 0;
 }
 
+.terms-font {
+    text-align: center;
+    margin: 0.25rem;
+    font-size: 12px;
+    margin: 0.2rem;
+    color: #757575;
+    font-weight: 300;
+    font-style: italic;
+}
+
 .centered {
     text-align: center;
 }
 
 .mb {
-    margin-bottom: 1rem;
+    margin: 0.25rem 0;
+    margin-bottom: 1.25rem;
 }
