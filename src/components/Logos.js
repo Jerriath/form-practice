@@ -13,11 +13,11 @@ const Logos = () => {
         <div className="logos">
             <img className="main-logo" src={IntuitLogo} alt="main logo" />
             <div className="small-logos">
-                <img class="logo-sizing" src={MintLogo} alt="side logo" />
+                <img className="logo-sizing" src={MintLogo} alt="side logo" />
                 <h4 className="logo-font">mint</h4>
-                <img class="logo-sizing" src={QuickbooksLogo} alt="side logo" />
+                <img className="logo-sizing" src={QuickbooksLogo} alt="side logo" />
                 <h4 className="logo-font">quickbooks</h4>
-                <img class="logo-sizing" src={TurbotaxLogo} alt="side logo" />
+                <img className="logo-sizing" src={TurbotaxLogo} alt="side logo" />
                 <h4 className="logo-font">turbotax</h4>
             </div>
         </div>

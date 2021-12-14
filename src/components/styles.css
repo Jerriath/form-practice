@@ -68,6 +68,7 @@
 
 
 
+/*----- Form styles -----*/
 form {
     border: 1px solid #c7c7c7;
     border-radius: 2px;
@@ -78,6 +79,51 @@ form {
     background-color: white;
     display: flex;
     flex-direction: column;
+}
+
+.text-input {
+    height: 34px;
+    width: 90%;
+    min-width: 160px;
+    padding: 0 5%;
+    border: 1px solid #c1c5c8;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.password-input {
+    height: 30px;
+    font-size: 1rem;
+    font-weight: 200;
+    width: 90%;
+    border: 0;
+    outline: 0;
+}
+
+.password-lock {
+    height: 22px;
+    width: auto;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.submit-btn {
+    background-color: #0077c5;
+    outline: 0;
+    border: 0;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 75%);
+    text-align: center;
+    padding: 6px 12px;
+    width: 100%;
+    height: 44px;
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
 }
 
 
@@ -93,6 +139,20 @@ form {
 .bigger-font {
     font-size: 14px;
     margin: 0;
+}
+
+.small-font {
+    font-size: 10px;
+    margin: 0;
+    color: #444;
+    font-weight: 300;
+}
+
+.label-font {
+    font-size: 15px;
+    font-weight: 300;
+    color: #404040;
+    margin-bottom: 0.75rem;
 }
 
 .title-font {
